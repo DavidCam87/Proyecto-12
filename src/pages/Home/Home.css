@@ -1,0 +1,98 @@
+.home {
+  text-align: center;
+}
+
+.home h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #222;
+}
+
+.sections {
+  border-radius: 15px;
+  display: flex;
+  gap: 40px;
+}
+
+.charactersHome,
+.housesHome {
+  flex: 1;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+
+
+}
+
+@media (max-width: 768px) {
+  .sections {
+    display: flex;
+    flex-direction: column;
+  
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* 
+.home {
+  text-align: center;
+}
+
+.home h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #222;
+}
+
+.sections {
+  border-radius: 15px;
+  display: flex;
+  gap: 40px;
+  margin: 20px; 
+}
+
+.charactersHome,
+.housesHome {
+  flex: 1;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); 
+  padding: 20px; 
+  background-color: #f9f9f9; 
+}
+
+@media (max-width: 768px) {
+  .sections {
+    flex-direction: column;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.cards .card { 
+  transition: transform 0.2s; 
+}
+
+.cards .card:hover {
+  transform: scale(1.05); 
+}
+ */

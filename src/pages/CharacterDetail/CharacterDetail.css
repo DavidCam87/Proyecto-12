@@ -1,0 +1,31 @@
+.character-detail {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.character-detail img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.character-detail img:hover {
+  transform: scale(1.05); /* Efecto de zoom en hover */
+}
+
+.character-detail h2 {
+  margin: 20px 0 15px;
+  font-size: 28px;
+}
+
+.character-detail p {
+  font-size: 18px;
+  color: #555;
+  margin: 5px 0;
+}

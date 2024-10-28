@@ -1,0 +1,49 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background: linear-gradient(135deg, #c5bcbc, #d9d9d9);
+  overflow: hidden;
+  text-align: center;
+}
+
+.not-found__message {
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+  animation: fadeIn 1s ease-in-out, bounce 2s infinite;
+}
+
+.not-found__link {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.not-found__link:hover {
+  color: #555;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

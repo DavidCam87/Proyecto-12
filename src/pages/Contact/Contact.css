@@ -1,0 +1,96 @@
+.contact-page {
+  max-width: 900px; 
+  text-align: center;
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  color: #333;
+}
+
+form > div {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; 
+}
+
+.contact-page h2 {
+  font-size: 30px;
+  color: #333;
+}
+
+.contact-page h3 {
+  font-size: 24px;
+  margin: 20px 0; 
+  color: #555; 
+}
+
+.ideas-list {
+  margin-top: 10px; 
+  overflow-y: auto;  /* Permite el desplazamiento vertical */
+  padding: 10px;
+}
+
+.ideas-list li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd; /* Opcional: línea divisoria */
+  word-wrap: break-word; /* Permite que las palabras largas se ajusten a la línea */
+  height: 120px;
+  padding: 10px;
+  resize: vertical;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin: 5px 0; 
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.ideas-list ul {
+  overflow: hidden;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .contact-page {
+    padding: 15px; 
+    max-width: 100%;
+  }
+
+  .contact-page h2 {
+    font-size: 24px;
+  }
+
+  .contact-page h3 {
+    font-size: 20px; 
+  }
+}
+
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}

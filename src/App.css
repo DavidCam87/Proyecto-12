@@ -1,0 +1,17 @@
+.App{
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.cargando{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.cargando > img{
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
